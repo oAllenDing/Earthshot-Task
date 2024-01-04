@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import { Box, Container, Typography, Grid } from '@mui/material';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container maxWidth="xs" >
+      <Box
+        sx={{
+          pt: 4,
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: 'center',
+          gap: 4,
+          bgcolor: 'black',
+        }}>
+        <Typography variant='h1' sx={{ my: 4, mb: 7, textAlign: 'center', color: 'primary.main' }}>
+          900M = malnutrition.
+        </Typography>
+      </Box>
+      {/* <Grid item>
+        test
+      </Grid> */}
+    </Container >
   );
 }
 
