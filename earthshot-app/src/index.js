@@ -104,7 +104,10 @@ root.render(
         </div>
       </div>
       <div style={{ marginBottom: "8px" }}>SUMMARY</div>
-      <div style={{ marginBottom: "8px" }}>...</div>
+      <div style={{ marginBottom: "8px" }}>Inaction cost: &#123;xx&#125;, &#123;yy&#125; QALY's, &#123;zz&#125; monetary.</div>
+      <div style={{ marginBottom: "8px" }}>Cost to solve problem now: &#123;xx&#125; people, &#123;yy&#125; investment, &#123;zz&#125; opportunity cost v. others.</div>
+      <div style={{ marginBottom: "8px" }}>Opportunity for innovation: Reduce cost by &#123;xx%&#125; by fixing &#123;1, 2, 3&#125;, improving ROI by &#123;yy&#125; per $ + hr spent.</div>
+      <div style={{ marginBottom: "8px" }}>Gap: Technologies & operation risk. High CapEx.</div>
     </div>
     <div
       style={{
